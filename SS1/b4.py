@@ -1,0 +1,12 @@
+ma_benh_nhan = input("Nhập mã bệnh nhân: ")
+nhiet_do = float(input("Nhập nhiệt độ cơ thể :"))
+nhip_tim = int(input("nhập nhịp tim: "))
+
+print("--- KẾT QUẢ CHUẨN HOÁ DỮ LIỆU ---")
+print("Mã bệnh nhân: ",ma_benh_nhan)
+print(f'Nhiệt độ cơ thể: {nhiet_do} độ C')
+print("=> kiểu dữ liệu hệ thống ghi nhận: ", type(nhiet_do))
+print(f'Nhịp tim: {nhip_tim} nhịp/phút')
+print("=> Kiểu dữ liệu hệ thống ghi nhận: ", type(nhip_tim))
+print("-----------------------------------")
+print("Thông báo: Dữ liệu hợp lệ. Màn hình Monitor đã sãn sàng kết nối!")
