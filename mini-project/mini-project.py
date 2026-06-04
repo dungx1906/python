@@ -49,6 +49,8 @@ while True:
             for i in smart_parking:
                 print(f"{i['id']:<5} | {i['type']:<10} | {i['owner']:<10}")
 
-    if choice == "3":
+    if choice == "4":
+        print("Thoát chương trình")
+        break
 
 
