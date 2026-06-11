@@ -1,4 +1,5 @@
-car_details_list = {
+car_details_list = [
+{
     "id":"XE001",
     "license_plate":"29C-12345(Tài A)",
     "consumption_rate":"12",
@@ -7,6 +8,7 @@ car_details_list = {
     "consumer_disparity_index":"5.0",
     "operating_performance_status":"Tiêu hao cao"
 }
+]
 
 menu = """
 1. Hiển thị danh sách đội xe
@@ -62,6 +64,7 @@ def input_car():
 
 
 
+
     return
 
 while True:
@@ -77,7 +80,7 @@ while True:
         match choice:
             case 1:
                 print("chức năng 1")
-                # output_list_car()
+                output_list_car()
                 print(car_details_list)
 
             case 2:
