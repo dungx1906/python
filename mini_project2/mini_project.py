@@ -79,10 +79,11 @@ while True:
     else:
         match choice:
             case 1:
-                # if len(inventory) == 0:
-                #     print("Kho hàng hiện đang trống!")
-                print(show_list_inventory())
+                if len(inventory) == 0:
+                    print("Kho hàng hiện đang trống!")
 
+                else:
+                    show_list_inventory()
             case 2:
                 print("chức năng 2:")
                 inventory.append(append_new_inventory())

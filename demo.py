@@ -1,10 +1,13 @@
-def number_check():
-    while True:
-        number = int(input("Nhập số: "))
-        if number > 0:
-            print("Số hợp lệ:", number)
-            return number
-        else:
-            print("Số phải lớn hơn 0, vui lòng nhập lại.")
+list_number = [1, 3, 4, 6, 8, 23, 26]
 
-number1 = number_check()
+sum = 0
+
+for number in list_number:
+    if number % 2 == 0:
+        sum += number
+
+    else:
+        sum -= number
+
+    print(sum)
+
