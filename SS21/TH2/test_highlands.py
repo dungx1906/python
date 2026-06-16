@@ -1,6 +1,6 @@
 import unittest
 
-from ex02 import calculate_total, add_to_order, InvalidQuantityError
+from TH2 import calculate_total, add_to_order, InvalidQuantityError
 
 
 class TestHighlandsPOS(unittest.TestCase):

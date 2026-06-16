@@ -1,5 +1,5 @@
 import unittest
-from baitap import calculate_energy_financials
+from b1 import calculate_energy_financials
 
 
 class TestEnergyFinancials(unittest.TestCase):
